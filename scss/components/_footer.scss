@@ -1,0 +1,36 @@
+footer {
+    @include flex (flex,space-between,center,row);
+    background-color: $colorPrincipal;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    bottom: auto;
+
+    .logoFooter img {
+        height: 60px;
+        width: 60px;
+        margin-left: 20px;
+    }
+
+    .redes {
+        display: inline-block;
+        h2 {
+            font-size: 20px;
+            color: white;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        img {
+            margin-top: 5px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    p {
+        font-size: 20px;
+        color: white;
+        text-align: end;
+        margin-right: 20px;
+    }
+    
+}

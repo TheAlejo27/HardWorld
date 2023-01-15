@@ -1,0 +1,108 @@
+@media screen and (max-width:1360px) {
+
+    .productos {
+        grid-template-columns: repeat(3, 1fr);
+
+        div {
+            width: 315px;
+            height: 300px;
+
+            p {
+                padding: 15px;
+            }
+        }
+    }
+
+    .formularioContenedor {
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .productos {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+
+        div {
+            width: 320px;
+            height: 290px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        p {
+            display: none;
+        }
+
+        .redes {
+            margin-right: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .formularioContenedor {
+        .formulario {
+            width: 300px;
+            height: 50%;
+        }
+
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 686px) {
+
+    .productos {
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    header {
+        .tituloConLogo {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 444px) {
+    header {
+        .tituloConLogo {
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    header {
+        .tituloConLogo {
+            img {
+                display: none;
+            }
+        }
+
+    }
+
+    header{
+        .tituloConLogo{
+            h1{
+                font-size: 20px;
+                color: white;
+                margin-left: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+//COLORES
+
+$colorPrincipal: #403A86;
+$colorProducto: #e2d1e4;
+
+@mixin grid ($grid, $align, $justifyItem, $gridColumn, $gridRow) {
+    display: $grid ;
+    align-items: $align;
+    justify-items: $justifyItem;
+    grid-template-columns: $gridColumn ;
+    grid-template-rows: $gridRow;
+}
+
+@mixin flex ($flex,$justify,$align,$direction){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
