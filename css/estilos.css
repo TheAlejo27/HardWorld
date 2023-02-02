@@ -39,8 +39,11 @@ header {
     header .tituloConLogo img {
       height: 60px;
       width: 60px; }
-  header .nav-link {
+  header .navbar-dark .navbar-nav .nav-link {
     color: white; }
+  header .navbar-dark .navbar-toggler {
+    color: #f8f8f8;
+    border-color: white; }
   header nav ul li a {
     transition: 1s;
     animation-duration: 5s;
